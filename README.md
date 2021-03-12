@@ -32,6 +32,8 @@
 | :------------------------------------------------------------------------: |
 | <kbd><img src=".github/previews/desktop_preview.gif" alt="Desktop"/></kbd> |
 
+</div>
+
 ---
 
 ## :information_source: About

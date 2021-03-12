@@ -1,34 +1,128 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <img alt="move.it" src=".github/banner.svg" width="250px"/>
+</p>
 
-## Getting Started
+<p align="center"> 
+  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/rafaelfachinelli/moveit?color=3498db&style=for-the-badge">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rafaelfachinelli/moveit?color=3498db&style=for-the-badge">
+  <a href="https://github.com/USERNAME">
+    <img alt="Developed by Rafael Fachinelli" src="https://img.shields.io/badge/Developer-Rafael_Fachinelli-%3498db?color=3498db&style=for-the-badge">
+  </a>
+  <img alt="Project License" src="https://img.shields.io/github/license/rafaelfachinelli/moveit?color=3498db&style=for-the-badge"/>
+</p>
 
-First, run the development server:
+<p align="center">
+ <a href="#eye_speech_bubble-preview">Preview</a> •
+ <a href="#information_source-about">About</a> •
+ <a href="#arrow_forward-run">Run</a> •
+ <a href="#hammer_and_wrench-technologies">Technologies</a> •
+ <a href="#boy-author">Author</a> •
+ <a href="#balance_scale-license">License</a>
+</p>
+
+---
+
+## :eye_speech_bubble: **Preview**
+
+<div align="center">
+
+### :desktop_computer: Computer
+
+|                                  Desktop                                   |
+| :------------------------------------------------------------------------: |
+| <kbd><img src=".github/previews/desktop_preview.gif" alt="Desktop"/></kbd> |
+
+---
+
+## :information_source: About
+
+...
+
+---
+
+## :arrow_forward: **Run**
+
+To run the project you need to clone or [`download`](https://github.com/rafaelfachinelli/nextjsquiz/archive/main.zip) this repository, have the Node Package Manager ([`NPM`](https://www.npmjs.com/get-npm)) or the YARN Package Manager installed ([`YARN`](https://yarnpkg.com/getting-started)).
+
+### :globe_with_meridians: **Web**
+
+Open the command prompt in the project directory and execute the following commands:
+
+<details>
+  <summary><i>with <b>npm</b></i></summary>
+  
+  ```bash
+  # Install dependencies
+  $ npm install
+
+# Start development server
+
+$ npm run dev
+
+````
+
+</details>
+
+<details>
+<summary><i>with <b>yarn</b></i></summary>
 
 ```bash
-npm run dev
-# or
-yarn dev
-```
+# Install dependencies
+$ yarn
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Start development server
+$ yarn dev
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+````
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+</details>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+> ⚠️ The development server will start on port:3000 - Access <http://localhost:3000>
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## :hammer_and_wrench: **Technologies**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The following tools is used to build this project:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<div align="center">
 
-## Deploy on Vercel
+|                      :globe_with_meridians: Web                       |
+| :-------------------------------------------------------------------: |
+|   [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)    |
+|                [CSS3](https://www.w3schools.com/css/)                 |
+| [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) |
+|                     [React](https://reactjs.org)                      |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+</div>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+## :boy: **Author**
+
+<div align="center">
+
+<a href="https://github.com/rafaelfachinelli">
+ <img src="https://github.com/rafaelfachinelli.png" width="100px;" alt="Profile Photo Rafael Fachinelli"/>
+ <br/>
+ <sub><b>Rafael Fachinelli</b></sub>
+</a>
+
+Developed with ❤️ by Rafael Fachinelli 👋🏽 Contact me!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Rafael_Fachinelli-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/rafaelfachinelli)
+[![Github Badge](https://img.shields.io/badge/-rafaelfachinelli-000?style=flat-square&logo=Github&logoColor=white)](https://github.com/rafaelfachinelli)
+[![Outlook Badge](https://img.shields.io/badge/-rafael.fachinelli@fatec.sp.gov.br-0078d4?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:rafael.fachinelli@fatec.sp.gov.br)
+
+</div>
+
+---
+
+## :balance_scale: **License**
+
+<div align="center">
+
+Copyright © 2021 [Rafael Fachinelli](https://github.com/rafaelfachinelli).<br />
+This project is licensed by [MIT](./LICENSE).
+
+</div>

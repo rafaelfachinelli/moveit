@@ -95,6 +95,7 @@ The following tools is used to build this project:
 |                [CSS3](https://www.w3schools.com/css/)                 |
 | [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) |
 |                     [React](https://reactjs.org)                      |
+|                     [Nextjs](https://nextjs.org)                      |
 
 </div>
 

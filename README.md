@@ -1,121 +1,111 @@
 <p align="center">
-  <img alt="move.it" src=".github/banner.svg" width="250px"/>
-</p>
-
-<p align="center"> 
-  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/rafaelfachinelli/moveit?color=5965e0&style=for-the-badge">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rafaelfachinelli/moveit?color=5965e0&style=for-the-badge">
-  <a href="https://github.com/USERNAME">
-    <img alt="Developed by Rafael Fachinelli" src="https://img.shields.io/badge/Developer-Rafael_Fachinelli-%5965e0?color=5965e0&style=for-the-badge">
-  </a>
-  <img alt="Project License" src="https://img.shields.io/github/license/rafaelfachinelli/moveit?color=5965e0&style=for-the-badge"/>
+  <img alt="move.it" src=".github/banner.svg" width="400px"/>
 </p>
 
 <p align="center">
- <a href="#eye_speech_bubble-preview">Preview</a> •
- <a href="#information_source-about">About</a> •
- <a href="#arrow_forward-run">Run</a> •
- <a href="#hammer_and_wrench-technologies">Technologies</a> •
- <a href="#boy-author">Author</a> •
- <a href="#balance_scale-license">License</a>
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/rafaelfachinelli/moveit?color=3498db&style=for-the-badge">
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/rafaelfachinelli/moveit?color=3498db&style=for-the-badge">
+  <a href="https://rafaelfachinelli.com">
+    <img alt="Developed by Rafael Fachinelli" src="https://img.shields.io/badge/Developer-Rafael_Fachinelli-3498db?style=for-the-badge">
+  </a>
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-3498db?style=for-the-badge">
 </p>
 
----
-
-## :eye_speech_bubble: **Preview**
-
-<div align="center">
-
-### :desktop_computer: Computer
-
-|                                  Desktop                                   |
-| :------------------------------------------------------------------------: |
-| <kbd><img src=".github/previews/desktop_preview.gif" alt="Desktop"/></kbd> |
-
-</div>
+<p align="center">
+  <a href="#information_source-about">About</a> •
+  <a href="#memo-tasks">Tasks</a> •
+  <a href="#arrow_forward-run">Run</a> •
+  <a href="#hammer_and_wrench-technologies">Technologies</a> •
+  <a href="#boy-author">Author</a> •
+  <a href="#balance_scale-license">License</a>
+</p>
 
 ---
 
 ## :information_source: About
 
-...
+⏱️ A Pomodoro app for people who work at the computer: a 25-minute countdown, and when it ends a challenge to move the body or rest the eyes. Completing challenges gives experience points that fill a progress bar and level you up, with a level-up modal. Progress is kept in cookies, so it survives a reload.
+
+Built in 2021 during Rocketseat's Next Level Week #5 with Next.js.
 
 ---
 
-## :arrow_forward: **Run**
+## :memo: Tasks
 
-To run the project you need to clone or [`download`](https://github.com/rafaelfachinelli/nextjsquiz/archive/main.zip) this repository, have the Node Package Manager ([`NPM`](https://www.npmjs.com/get-npm)) or the YARN Package Manager installed ([`YARN`](https://yarnpkg.com/getting-started)).
-
-### :globe_with_meridians: **Web**
-
-Open the command prompt in the project directory and execute the following commands:
-
+<div align="center">
 <details>
-  <summary><i>with <b>npm</b></i></summary>
-  
-  ```bash
-  # Install dependencies
-  $ npm install
+<summary>Click to view</summary>
 
-# Start development server
-
-$ npm run dev
-
-````
+|State|Task|
+|:---:|:---|
+|:heavy_check_mark:|Profile with level|
+|:heavy_check_mark:|Experience bar|
+|:heavy_check_mark:|Countdown with start and abandon|
+|:heavy_check_mark:|Random challenges (body and eyes)|
+|:heavy_check_mark:|Completed challenges counter|
+|:heavy_check_mark:|Level-up modal|
+|:heavy_check_mark:|Countdown and challenges contexts|
+|:heavy_check_mark:|Progress saved in cookies (server-side props)|
 
 </details>
+</div>
 
-<details>
-<summary><i>with <b>yarn</b></i></summary>
+---
+
+## :arrow_forward: Run
+
+You need [Node.js](https://nodejs.org/) and [Yarn](https://yarnpkg.com/). In the project folder:
 
 ```bash
 # Install dependencies
-$ yarn
+yarn
 
-# Start development server
-$ yarn dev
+# Start the development server
+yarn dev
+```
 
-````
-
-</details>
-
-> ⚠️ The development server will start on port:3000 - Access <http://localhost:3000>
+> The app opens at <http://localhost:3000>.
 
 ---
 
-## :hammer_and_wrench: **Technologies**
-
-The following tools is used to build this project:
+## :hammer_and_wrench: Technologies
 
 <div align="center">
 
-|                      :globe_with_meridians: Web                       |
-| :-------------------------------------------------------------------: |
-|   [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)    |
-|                [CSS3](https://www.w3schools.com/css/)                 |
-| [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) |
-|                     [React](https://reactjs.org)                      |
-|                     [Nextjs](https://nextjs.org)                      |
+|Web|
+|:---:|
+|[Next.js](https://nextjs.org/)|
+|[React](https://react.dev/)|
+|[TypeScript](https://www.typescriptlang.org/)|
+|[Context API](https://react.dev/learn/passing-data-deeply-with-context)|
+|[CSS Modules](https://github.com/css-modules/css-modules)|
+|[js-cookie](https://github.com/js-cookie/js-cookie)|
 
 </div>
 
 ---
 
-## :boy: **Author**
+## :boy: Author
 
 <div align="center">
-  
-[![Author](https://github.com/rafaelfachinelli/rafaelfachinelli/blob/master/.github/author.svg)](https://www.linkedin.com/in/rafaelfachinelli/)
+
+<a href="https://rafaelfachinelli.com">
+  <img src="https://github.com/rafaelfachinelli.png" width="100px" alt="Rafael Fachinelli"/>
+  <br/>
+  <sub><b>Rafael Fachinelli</b></sub>
+</a>
+
+Tech Lead and software engineer. Get in touch!
+
+[![Portfolio](https://img.shields.io/badge/-rafaelfachinelli.com-3498db?style=flat-square&logo=googlechrome&logoColor=white)](https://rafaelfachinelli.com)
+[![LinkedIn](https://img.shields.io/badge/-Rafael_Fachinelli-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafaelfachinelli/)
+[![GitHub](https://img.shields.io/badge/-rafaelfachinelli-000?style=flat-square&logo=github&logoColor=white)](https://github.com/rafaelfachinelli)
+[![E-mail](https://img.shields.io/badge/-rafael.l.a.fachinelli@gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white)](mailto:rafael.l.a.fachinelli@gmail.com)
 
 </div>
 
 ---
 
-## :balance_scale: **License**
+## :balance_scale: License
 
-<div align="center">
-
-Copyright © 2021 [Rafael Fachinelli](https://github.com/rafaelfachinelli).<br />
-This project is licensed by [MIT](./LICENSE).
-
-</div>
+This project is under the [MIT license](./LICENSE).
